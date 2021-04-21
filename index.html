@@ -16,6 +16,21 @@
 <img src="33_pa2B0_400x400 (1).jpg" alt+"thing" width="450" height="400"> <dialog open> Thats' the profile picture I chose, due to it being mine on other sites, like soundcloud. </dialog>
  
 <div>      </div>
+  <script>
+    var colors = ["red", "blue", "green"];
+    var colorIndex = 0;
+    function changeColor() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+    }
+</script>
+    <body id='body'>
+    <button onclick="changeColor();">Change color</button>
+    </body>
 <div>      </div>
 <div>      </div>
 <a href="https://v6p9d9t4.ssl.hwcdn.net/html/3637182/index.html">FNF</a> <br>
