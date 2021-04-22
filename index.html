@@ -102,12 +102,12 @@
   <hr> <br>
   (PSSSST! hey, here is a button; it can change the background color!)
   <script>
-    var colors = ["red", "blue", "green"];
-    var colorIndex = 0;
+    var colors = ["red", "aqua", "lightpink"];
+    var colorIndex = 10;
     function changeColor() {
         var col = document.getElementById("body");
         if( colorIndex >= colors.length ) {
-            colorIndex = 0;
+            colorIndex = 10;
         }
         col.style.backgroundColor = colors[colorIndex];
         colorIndex++;
