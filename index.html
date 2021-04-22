@@ -101,13 +101,13 @@
   <hr> <br>
   <hr> <br>
   (PSSSST! hey, here is a button; it can change the background color!)
-  <script>
-    var colors = ["red", "aqua", "lightpink"];
-    var colorIndex =;
+<script>
+    var colors = ["red", "blue", "green"];
+    var colorIndex = 0;
     function changeColor() {
         var col = document.getElementById("body");
         if( colorIndex >= colors.length ) {
-            colorIndex =;
+            colorIndex = 0;
         }
         col.style.backgroundColor = colors[colorIndex];
         colorIndex++;
@@ -115,7 +115,7 @@
 </script>
     <body id='body'>
     <button onclick="changeColor();">Change color</button>
-    </body>
+	</body>
   <hr> <br>
 <h3> Welp, thats the end of the page, sorry. -Lucy </h3>
 <p> yep, you reached the end, did you get bored? scroll back up if not, but if you did; do your schoolwork and maybe you won't be bored as much, ʸᵒᵘ ᶦᵈᶦᵒᵗ...</p>
