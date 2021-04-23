@@ -1,4 +1,1 @@
-# FNF
-BRUHBRUHBRUH
-no steal plz
->;
+https://telleon.github.io/FNF/
